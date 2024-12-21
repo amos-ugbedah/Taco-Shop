@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: #f7f7f7;
+    color: #666;
+  }
+  /* #wrapper {
+    background: #fff;
+    opacity: 0.2;
+    height: 100vh;
+  } */
+
+  header {
+    background: url(../Project/images/down1.jpeg) no-repeat center/cover fixed;
+    background-color: #4567b7;
+    color: #fff;
+    height: 300px;
+    border-top: 10px solid #87ceeb;
+  border-bottom:    10px dotted #87ceeb;
+  border-left: 30px double #4567b7;
+  border-right: 30px solid #4567b7;
+  /* border-radius: 40px; */
+  border-top-left-radius: 40px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 50px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+  main {
+    background-color: #f2f2f2;
+    color: #808080;
+  }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+a:visited {
+    color: rgba(15, 128, 0, 0.856);
+}
+
+a:hover, a:focus {
+    color: dodgerblue;
+    opacity: 0.8;
+    background: gold;
+}
+
+a:active {
+    color: red;
+}
+
+
+.Tacos {
+    margin-left: 15%;
+    width: 800px;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+}
